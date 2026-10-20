@@ -1,0 +1,10 @@
+name: Runzivo workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  runzivo:
+    runs-on: 'rzv-ubuntu-24.04-x64-2vcpu-8gb'
+    steps:
+      - run: echo "Runzivo workflow is ready"
